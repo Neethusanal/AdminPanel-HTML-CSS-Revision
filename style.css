@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+  min-height: 100vh;  
+}
+a{
+    text-decoration: none;
+}
+.side-menu{
+    position:fixed;
+    background: #f05462;
+    width:20vw;
+    min-height:  100vh;
+    display:flex;
+    flex-direction: column;
+
+}
+.side-menu .brand-name{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.side-menu li{
+   
+    font-size: 2opx;
+    padding:10px 40px;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+/* .img{
+    height:10px;
+    width:10px;
+
+} */
+
